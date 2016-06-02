@@ -1,0 +1,68 @@
+<?xml version="1.0" ?><cherrytree><node name="it" prog_lang="custom-colors" readonly="False" tags="it" unique_id="1"><rich_text></rich_text><node name="linux" prog_lang="custom-colors" readonly="False" tags="it" unique_id="2"><rich_text></rich_text><node name="command" prog_lang="custom-colors" readonly="False" tags="it" unique_id="3"><rich_text>linux command line
+
+</rich_text><rich_text justification="left"></rich_text><rich_text>
+
+</rich_text><codebox char_offset="20" frame_height="710" frame_width="640" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="sh" width_in_pixels="True">ascii # prononced &quot;as-key&quot;
+
+ls -a|less # = dir -all/p
+
+less filename # view content of a text including pdf file
+
+rename -v 's/oldname/newname/' *.* # = mv oldname.* newname.*
+
+gcc -o prname prname.c -lm # compile program to executable linux process
+
+rm filename.* # remove
+
+mkdir = 'make dir': mkdir \perso
+
+rm -rf = 'del all directories and sub-directories and files'
+ 
+mv = 'move file or dir to': mv /a/a.txt /b/a.txt
+                            mv a.txt b.txt = rename
+
+nohup ='protect child process': nohup ./test.sh &amp;
+
+less filename ='view content of a text file'
+
+sudo apt-get remove --purge softname1
+
+rename -n 's/Sam3/Stm32/' *.nc　　/*确认需要重命名的文件*/
+rename -v 's/Sam3/Stm32/' *.nc　　/*执行修改，并列出已重命名的文件*/</codebox></node></node><node name="python" prog_lang="custom-colors" readonly="False" tags="" unique_id="4"><rich_text></rich_text><node name="input&amp;output" prog_lang="custom-colors" readonly="False" tags="" unique_id="5"><rich_text>1.输入字符串
+</rich_text><rich_text justification="left"></rich_text><rich_text>
+2.输入整数
+
+</rich_text><rich_text justification="left"></rich_text><rich_text>
+
+3.输入浮点型
+
+</rich_text><rich_text justification="left"></rich_text><rich_text>
+
+4.输入16进制数据
+
+</rich_text><rich_text justification="left"></rich_text><rich_text>
+
+5.输入8进制数据
+</rich_text><rich_text justification="left"></rich_text><rich_text>
+</rich_text><codebox char_offset="8" frame_height="200" frame_width="700" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="python" width_in_pixels="True">#13222319810101****
+nID = ''
+while 1:
+    nID = raw_input(&quot;Input your id plz&quot;)
+    if len(nID) != len(&quot;13222319810101****&quot;):
+        print 'wring length of id,input again'
+    else:
+        break
+
+print 'your id is %s' % (nID)</codebox><codebox char_offset="18" frame_height="110" frame_width="700" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="python" width_in_pixels="True">nAge = int(raw_input(&quot;input your age plz:\n&quot;))
+if nAge &gt; 0 and nAge &lt; 120:
+    print 'thanks!'
+else:
+    print 'bad age'
+print 'your age is %d\n' % nAge</codebox><codebox char_offset="30" frame_height="80" frame_width="700" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="python" width_in_pixels="True">fWeight = 0.0
+fWeight = float(raw_input(&quot;input your weight\n&quot;))
+print 'your weight is %f' % fWeight</codebox><codebox char_offset="45" frame_height="50" frame_width="700" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="python" width_in_pixels="True">nHex = int(raw_input('input hex value(like 0x20):\n'),16)
+print 'nHex = %x,nOct = %d\n' %(nHex,nHex)</codebox><codebox char_offset="58" frame_height="50" frame_width="700" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="python" width_in_pixels="True">nOct = int(raw_input('input oct value(like 020):\n'),8)
+print 'nOct = %o,nDec = %d\n' % (nOct,nOct)</codebox></node><node name="env" prog_lang="custom-colors" readonly="False" tags="" unique_id="6"><rich_text>#!/usr/bin/Python 是告诉操作系统执行这个脚本的时候，调用/usr/bin下的python解释器；
+#!/usr/bin/env python 这种用法是为了防止操作系统用户没有将python装在默认的/usr/bin路径里。当系统看到这一行的时候，首先会到env设置里查找python的安装路径，再调用对应路径下的解释器程序完成操作。
+#!/usr/bin/python 相当于写死了python路径;
+#!/usr/bin/env python 会去环境设置寻找python目录,推荐这种写法</rich_text></node></node></node></cherrytree>
