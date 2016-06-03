@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><cherrytree><node name="it" prog_lang="custom-colors" readonly="False" tags="it" unique_id="1"><rich_text></rich_text><node name="linux" prog_lang="custom-colors" readonly="False" tags="it" unique_id="2"><rich_text></rich_text><node name="command" prog_lang="custom-colors" readonly="False" tags="it" unique_id="3"><rich_text>linux command line
+<?xml version="1.0" ?><cherrytree><node name="it" prog_lang="custom-colors" readonly="False" tags="it" unique_id="1"><rich_text></rich_text><node name="vi" prog_lang="custom-colors" readonly="False" tags="" unique_id="7"><rich_text>yy = copy current line
+p = paste</rich_text></node><node name="linux" prog_lang="custom-colors" readonly="False" tags="it" unique_id="2"><rich_text></rich_text><node name="command" prog_lang="custom-colors" readonly="False" tags="it" unique_id="3"><rich_text>linux command line
 
 </rich_text><rich_text justification="left"></rich_text><rich_text>
 

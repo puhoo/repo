@@ -1,4 +1,9 @@
-<?xml version="1.0" ?><cherrytree><node name="it" prog_lang="custom-colors" readonly="False" tags="it" unique_id="1"><rich_text></rich_text><node name="vi" prog_lang="custom-colors" readonly="False" tags="" unique_id="7"><rich_text>yy = copy current line
+<?xml version="1.0" ?><cherrytree><node name="it" prog_lang="custom-colors" readonly="False" tags="it" unique_id="1"><rich_text></rich_text><node name="git" prog_lang="custom-colors" readonly="False" tags="" unique_id="8"><rich_text justification="left"></rich_text><codebox char_offset="0" frame_height="100" frame_width="700" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="sh" width_in_pixels="True">$ git add readme.txt  # add git file
+$ git commit -m &quot;wrote a readme file&quot;
+$ git status
+
+$ git remote add origin git@github.com:username/repo.git
+$ git push -u origin master</codebox></node><node name="vi" prog_lang="custom-colors" readonly="False" tags="" unique_id="7"><rich_text>yy = copy current line
 p = paste</rich_text></node><node name="linux" prog_lang="custom-colors" readonly="False" tags="it" unique_id="2"><rich_text></rich_text><node name="command" prog_lang="custom-colors" readonly="False" tags="it" unique_id="3"><rich_text>linux command line
 
 </rich_text><rich_text justification="left"></rich_text><rich_text>
